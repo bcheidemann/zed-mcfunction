@@ -1,9 +1,6 @@
-# 🔐 Environment Support for Zed
+# Mcfunction Syntax Highlighting for Zed
 
-Enhance Zed with environment syntax highlighting!
-
-- Supports `.env` and `.conf` files.
-- Tree Sitter: [tree-sitter-dotenv](https://github.com/zarifpour/tree-sitter-dotenv)
+Enhance Zed with mcfunction syntax highlighting!
 
 ![screenshot.png](public/screenshot.png)
 
@@ -12,7 +9,7 @@ Enhance Zed with environment syntax highlighting!
 ### 1. Clone the repository
 
 ```shell
-git clone https://github.com/zarifpour/zed-env
+git clone https://github.com/bcheidemann/zed-mcfunction
 ```
 
 ### 2. Uninstall the existing extension
@@ -23,7 +20,7 @@ If you have the existing extension installed, you need to uninstall it before in
 
 - Open `zed: extensions`.
 - Click `Install Dev Extension`.
-- Select the `zed-env` directory.
+- Select the `zed-mcfunction` directory.
 
 ### 4. Rebuild the extension as needed
 
@@ -42,22 +39,13 @@ To contribute:
 2. Make changes and test them.
 3. Submit a pull request with a clear description.
 
-Check open issues for areas needing improvement. Thanks for helping improve Solidity support in Zed!
+Check open issues for areas needing improvement. Thanks for helping improve mcfunction support in Zed!
 
-<a href="https://github.com/zarifpour/zed-env/graphs/contributors">
-  <img alt="contrib.rocks" src="https://contrib.rocks/image?repo=zarifpour/zed-env" />
+<a href="https://github.com/bcheidemann/zed-mcfunction/graphs/contributors">
+  <img alt="contrib.rocks" src="https://contrib.rocks/image?repo=bcheidemann/zed-mcfunction" />
 </a>
 
 ## 🏆 Acknowledgments
 
-- [@EpocSquadron](https://github.com/EpocSquadron) for providing the [tree-sitter-dotenv](https://github.com/EpocSquadron/tree-sitter-dotenv) repository.
-
----
-
-<div align=center>
-
-Made with 🖤 by <a href="https://zarifpour.xyz">Daniel Zarifpour</a>
-
-<a href="https://www.buymeacoffee.com/zarifpour"><img src="https://img.buymeacoffee.com/button-api/?text=Help me love&emoji=♥️&slug=zarifpour&button_colour=ffbbb6&font_colour=000000&font_family=Cookie&outline_colour=FF0000&coffee_colour=FFDD00" /></a>
-
-</div>
+- [@zarifpour](https://github.com/zarifpour) and the developers of [zed-env](https://github.com/zarifpour/zed-env), which this extension is forked from.
+- [@IoeCmcomc](https://github.com/IoeCmcomc) for providing the [tree-sitter-mcfunction](https://github.com/IoeCmcomc/tree-sitter-mcfunction) repository.

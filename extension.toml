@@ -1,11 +1,11 @@
-id = "env"
-name = "env"
-version = "0.0.2"
+id = "mcfunction"
+name = "mcfunction"
+version = "0.0.1"
 schema_version = 1
-authors = ["Daniel Zarifpour <z@rifpour.xyz>"]
-description = "🔐 Environment support. ✰ and report issues ➩"
-repository = "https://github.com/zarifpour/zed-env"
+authors = ["Ben Heidemann <ben@heidemann.dev>"]
+description = "Mcfunction support for Zed"
+repository = "https://github.com/bcheidemann/zed-mcfunction"
 
-[grammars.env]
-repository = "https://github.com/zarifpour/tree-sitter-dotenv"
-commit = "a854096808a5c1da0de998b31e5887995a98a89f"
+[grammars.mcfunction]
+repository = "https://github.com/IoeCmcomc/tree-sitter-mcfunction"
+commit = "5bf1f08320697c24f395af76422a845f9f627fb0"
